@@ -11,6 +11,32 @@
 		D3EC7DF029DD93330029CF5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7DEF29DD93330029CF5F /* ContentView.swift */; };
 		D3EC7DF229DD93330029CF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EC7DF129DD93330029CF5F /* Assets.xcassets */; };
 		D3EC7DF529DD93330029CF5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EC7DF429DD93330029CF5F /* Preview Assets.xcassets */; };
+		D3EC7E0329DD93C00029CF5F /* ExpensesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E0229DD93C00029CF5F /* ExpensesList.swift */; };
+		D3EC7E0529DD93D10029CF5F /* PeriodOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E0429DD93D10029CF5F /* PeriodOverview.swift */; };
+		D3EC7E0729DD93D80029CF5F /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E0629DD93D80029CF5F /* Tag.swift */; };
+		D3EC7E0929DD93E90029CF5F /* TotalCurrencyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E0829DD93E90029CF5F /* TotalCurrencyBox.swift */; };
+		D3EC7E0B29DD94010029CF5F /* ExpensesBreakdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E0A29DD94010029CF5F /* ExpensesBreakdown.swift */; };
+		D3EC7E0D29DD940C0029CF5F /* MonthChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E0C29DD940C0029CF5F /* MonthChart.swift */; };
+		D3EC7E0F29DD94150029CF5F /* PeriodChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E0E29DD94150029CF5F /* PeriodChart.swift */; };
+		D3EC7E1129DD941D0029CF5F /* WeekChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E1029DD941D0029CF5F /* WeekChart.swift */; };
+		D3EC7E1329DD94270029CF5F /* YearChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E1229DD94270029CF5F /* YearChart.swift */; };
+		D3EC7E1729DD95300029CF5F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E1629DD95300029CF5F /* Double.swift */; };
+		D3EC7E1929DD954D0029CF5F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E1829DD954D0029CF5F /* Category.swift */; };
+		D3EC7E1B29DD95680029CF5F /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E1A29DD95680029CF5F /* Expense.swift */; };
+		D3EC7E1D29DD95860029CF5F /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E1C29DD95860029CF5F /* Period.swift */; };
+		D3EC7E1F29DD959A0029CF5F /* Recurrence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E1E29DD959A0029CF5F /* Recurrence.swift */; };
+		D3EC7E2129DD95B70029CF5F /* Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E2029DD95B70029CF5F /* Add.swift */; };
+		D3EC7E2329DD95C00029CF5F /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E2229DD95C00029CF5F /* Categories.swift */; };
+		D3EC7E2529DD95C60029CF5F /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E2429DD95C60029CF5F /* Expenses.swift */; };
+		D3EC7E2729DD95CD0029CF5F /* Reports.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E2629DD95CD0029CF5F /* Reports.swift */; };
+		D3EC7E2929DD95D30029CF5F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E2829DD95D30029CF5F /* Settings.swift */; };
+		D3EC7E2B29DD962A0029CF5F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E2A29DD962A0029CF5F /* Color.swift */; };
+		D3EC7E2D29DD96380029CF5F /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E2C29DD96380029CF5F /* DateUtils.swift */; };
+		D3EC7E2F29DD96420029CF5F /* ExpensesUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E2E29DD96420029CF5F /* ExpensesUtils.swift */; };
+		D3EC7E3129DD964E0029CF5F /* KeyboardUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E3029DD964E0029CF5F /* KeyboardUtils.swift */; };
+		D3EC7E3429DD97200029CF5F /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = D3EC7E3329DD97200029CF5F /* Sentry */; };
+		D3EC7E3729DD976C0029CF5F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D3EC7E3629DD976C0029CF5F /* RealmSwift */; };
+		D3EC7E3929DD97A80029CF5F /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC7E3829DD97A80029CF5F /* RealmManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +45,30 @@
 		D3EC7DEF29DD93330029CF5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3EC7DF129DD93330029CF5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3EC7DF429DD93330029CF5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3EC7E0229DD93C00029CF5F /* ExpensesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesList.swift; sourceTree = "<group>"; };
+		D3EC7E0429DD93D10029CF5F /* PeriodOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodOverview.swift; sourceTree = "<group>"; };
+		D3EC7E0629DD93D80029CF5F /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		D3EC7E0829DD93E90029CF5F /* TotalCurrencyBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalCurrencyBox.swift; sourceTree = "<group>"; };
+		D3EC7E0A29DD94010029CF5F /* ExpensesBreakdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesBreakdown.swift; sourceTree = "<group>"; };
+		D3EC7E0C29DD940C0029CF5F /* MonthChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthChart.swift; sourceTree = "<group>"; };
+		D3EC7E0E29DD94150029CF5F /* PeriodChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodChart.swift; sourceTree = "<group>"; };
+		D3EC7E1029DD941D0029CF5F /* WeekChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekChart.swift; sourceTree = "<group>"; };
+		D3EC7E1229DD94270029CF5F /* YearChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearChart.swift; sourceTree = "<group>"; };
+		D3EC7E1629DD95300029CF5F /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		D3EC7E1829DD954D0029CF5F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D3EC7E1A29DD95680029CF5F /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		D3EC7E1C29DD95860029CF5F /* Period.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		D3EC7E1E29DD959A0029CF5F /* Recurrence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recurrence.swift; sourceTree = "<group>"; };
+		D3EC7E2029DD95B70029CF5F /* Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add.swift; sourceTree = "<group>"; };
+		D3EC7E2229DD95C00029CF5F /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		D3EC7E2429DD95C60029CF5F /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		D3EC7E2629DD95CD0029CF5F /* Reports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reports.swift; sourceTree = "<group>"; };
+		D3EC7E2829DD95D30029CF5F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		D3EC7E2A29DD962A0029CF5F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D3EC7E2C29DD96380029CF5F /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		D3EC7E2E29DD96420029CF5F /* ExpensesUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesUtils.swift; sourceTree = "<group>"; };
+		D3EC7E3029DD964E0029CF5F /* KeyboardUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardUtils.swift; sourceTree = "<group>"; };
+		D3EC7E3829DD97A80029CF5F /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EC7E3729DD976C0029CF5F /* RealmSwift in Frameworks */,
+				D3EC7E3429DD97200029CF5F /* Sentry in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +103,17 @@
 		D3EC7DEC29DD93330029CF5F /* ExTrack */ = {
 			isa = PBXGroup;
 			children = (
+				D3EC7E0029DD93940029CF5F /* Utilities */,
+				D3EC7DFF29DD938E0029CF5F /* Screens */,
+				D3EC7DFE29DD93870029CF5F /* Models */,
+				D3EC7DFD29DD937D0029CF5F /* Extensions */,
+				D3EC7DFC29DD93700029CF5F /* Configs */,
+				D3EC7DFB29DD93620029CF5F /* Components */,
 				D3EC7DED29DD93330029CF5F /* ExTrackApp.swift */,
 				D3EC7DEF29DD93330029CF5F /* ContentView.swift */,
 				D3EC7DF129DD93330029CF5F /* Assets.xcassets */,
 				D3EC7DF329DD93330029CF5F /* Preview Content */,
+				D3EC7E3829DD97A80029CF5F /* RealmManager.swift */,
 			);
 			path = ExTrack;
 			sourceTree = "<group>";
@@ -65,6 +124,79 @@
 				D3EC7DF429DD93330029CF5F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3EC7DFB29DD93620029CF5F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D3EC7E0129DD93AC0029CF5F /* Charts */,
+				D3EC7E0229DD93C00029CF5F /* ExpensesList.swift */,
+				D3EC7E0429DD93D10029CF5F /* PeriodOverview.swift */,
+				D3EC7E0629DD93D80029CF5F /* Tag.swift */,
+				D3EC7E0829DD93E90029CF5F /* TotalCurrencyBox.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D3EC7DFC29DD93700029CF5F /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		D3EC7DFD29DD937D0029CF5F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D3EC7E1629DD95300029CF5F /* Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D3EC7DFE29DD93870029CF5F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3EC7E1829DD954D0029CF5F /* Category.swift */,
+				D3EC7E1A29DD95680029CF5F /* Expense.swift */,
+				D3EC7E1C29DD95860029CF5F /* Period.swift */,
+				D3EC7E1E29DD959A0029CF5F /* Recurrence.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3EC7DFF29DD938E0029CF5F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D3EC7E2029DD95B70029CF5F /* Add.swift */,
+				D3EC7E2229DD95C00029CF5F /* Categories.swift */,
+				D3EC7E2429DD95C60029CF5F /* Expenses.swift */,
+				D3EC7E2629DD95CD0029CF5F /* Reports.swift */,
+				D3EC7E2829DD95D30029CF5F /* Settings.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D3EC7E0029DD93940029CF5F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D3EC7E2A29DD962A0029CF5F /* Color.swift */,
+				D3EC7E2C29DD96380029CF5F /* DateUtils.swift */,
+				D3EC7E2E29DD96420029CF5F /* ExpensesUtils.swift */,
+				D3EC7E3029DD964E0029CF5F /* KeyboardUtils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D3EC7E0129DD93AC0029CF5F /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				D3EC7E0A29DD94010029CF5F /* ExpensesBreakdown.swift */,
+				D3EC7E0C29DD940C0029CF5F /* MonthChart.swift */,
+				D3EC7E0E29DD94150029CF5F /* PeriodChart.swift */,
+				D3EC7E1029DD941D0029CF5F /* WeekChart.swift */,
+				D3EC7E1229DD94270029CF5F /* YearChart.swift */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +215,10 @@
 			dependencies = (
 			);
 			name = ExTrack;
+			packageProductDependencies = (
+				D3EC7E3329DD97200029CF5F /* Sentry */,
+				D3EC7E3629DD976C0029CF5F /* RealmSwift */,
+			);
 			productName = ExTrack;
 			productReference = D3EC7DEA29DD93330029CF5F /* ExTrack.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +247,10 @@
 				Base,
 			);
 			mainGroup = D3EC7DE129DD93330029CF5F;
+			packageReferences = (
+				D3EC7E3229DD97200029CF5F /* XCRemoteSwiftPackageReference "sentry-cocoa" */,
+				D3EC7E3529DD976C0029CF5F /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = D3EC7DEB29DD93330029CF5F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +277,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EC7E1B29DD95680029CF5F /* Expense.swift in Sources */,
+				D3EC7E3129DD964E0029CF5F /* KeyboardUtils.swift in Sources */,
+				D3EC7E1129DD941D0029CF5F /* WeekChart.swift in Sources */,
+				D3EC7E2F29DD96420029CF5F /* ExpensesUtils.swift in Sources */,
+				D3EC7E2529DD95C60029CF5F /* Expenses.swift in Sources */,
+				D3EC7E2D29DD96380029CF5F /* DateUtils.swift in Sources */,
+				D3EC7E2729DD95CD0029CF5F /* Reports.swift in Sources */,
+				D3EC7E0329DD93C00029CF5F /* ExpensesList.swift in Sources */,
+				D3EC7E0929DD93E90029CF5F /* TotalCurrencyBox.swift in Sources */,
+				D3EC7E2129DD95B70029CF5F /* Add.swift in Sources */,
+				D3EC7E2329DD95C00029CF5F /* Categories.swift in Sources */,
+				D3EC7E0F29DD94150029CF5F /* PeriodChart.swift in Sources */,
+				D3EC7E0529DD93D10029CF5F /* PeriodOverview.swift in Sources */,
+				D3EC7E3929DD97A80029CF5F /* RealmManager.swift in Sources */,
+				D3EC7E0D29DD940C0029CF5F /* MonthChart.swift in Sources */,
+				D3EC7E0729DD93D80029CF5F /* Tag.swift in Sources */,
+				D3EC7E0B29DD94010029CF5F /* ExpensesBreakdown.swift in Sources */,
+				D3EC7E2B29DD962A0029CF5F /* Color.swift in Sources */,
+				D3EC7E1F29DD959A0029CF5F /* Recurrence.swift in Sources */,
 				D3EC7DF029DD93330029CF5F /* ContentView.swift in Sources */,
+				D3EC7E1D29DD95860029CF5F /* Period.swift in Sources */,
+				D3EC7E1929DD954D0029CF5F /* Category.swift in Sources */,
+				D3EC7E1329DD94270029CF5F /* YearChart.swift in Sources */,
+				D3EC7E2929DD95D30029CF5F /* Settings.swift in Sources */,
+				D3EC7E1729DD95300029CF5F /* Double.swift in Sources */,
 				D3EC7DEE29DD93330029CF5F /* ExTrackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +439,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +469,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +505,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3EC7E3229DD97200029CF5F /* XCRemoteSwiftPackageReference "sentry-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getsentry/sentry-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.27.0;
+			};
+		};
+		D3EC7E3529DD976C0029CF5F /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3EC7E3329DD97200029CF5F /* Sentry */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EC7E3229DD97200029CF5F /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
+			productName = Sentry;
+		};
+		D3EC7E3629DD976C0029CF5F /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EC7E3529DD976C0029CF5F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D3EC7DE229DD93330029CF5F /* Project object */;
 }
