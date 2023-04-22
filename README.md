@@ -4,12 +4,6 @@
 
 ![A picture of the strabucks app](https://github.com/Thet9354/Extrack/blob/main/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20Max%20-%202023-04-22%20at%2012.12.52.png)
 
-![A picture of the strabucks app](https://github.com/Thet9354/Starbucks-Android-App/blob/aff773a6c75bb6eef8c225ada236df81ec0238f2/app/src/main/res/drawable/cover.png)
-
-![A picture of the strabucks app](https://github.com/Thet9354/Starbucks-Android-App/blob/aff773a6c75bb6eef8c225ada236df81ec0238f2/app/src/main/res/drawable/cover.png)
-
-![A picture of the strabucks app](https://github.com/Thet9354/Starbucks-Android-App/blob/aff773a6c75bb6eef8c225ada236df81ec0238f2/app/src/main/res/drawable/cover.png)
-
 ExTrack is an iOS application developed with Xcode and SwiftUI that allows users to track their expenses in a convenient and intuitive way. With ExTrack, you can create custom expense categories, record and view your expenses, and get a summary of your spending.
 
 ## Features
